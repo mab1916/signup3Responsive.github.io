@@ -20,7 +20,7 @@ body {
 }
 /* Sign Up */
 .signUp {
-    width: 60%;
+    width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -31,10 +31,11 @@ body {
     content: '';
     position: absolute;
     z-index: -1;
+    margin-left: -7%;
     border-radius: 0 50% 50% 0;
-    width: 56%;
+    width: 43%;
     height: 100%;
-    border: 5000px solid rgb(22, 45, 138, 60%);
+    border: 5000px solid rgba(29,52,148,55%);
 }
 /* Form */
 .header {
@@ -121,8 +122,7 @@ body {
 /* Middle Icon */
 .middle {
     color: green;
-    display: flex;
-    align-items: center;
+    margin-left: -9%;
     cursor: pointer;
     font-size: -webkit-xxx-large;
 }
@@ -137,7 +137,7 @@ body {
 /* NavBar */
 .nav {
     z-index: 1;
-    width: 50.7%;
+    width: 55%;
     height: 60%;
 }
 .nav > ul {
