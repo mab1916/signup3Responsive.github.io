@@ -72,6 +72,10 @@ body {
     position: relative;
     top: -11%;
     cursor: pointer;
+    font-size: large;
+}
+.showPasswordColor {
+    color: green;
 }
 .forget {
     float: right;
