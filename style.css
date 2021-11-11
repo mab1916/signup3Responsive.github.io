@@ -1,0 +1,173 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100vh;
+    background: url('./assets/images/images.jpg') no-repeat;
+    background-size: 100% auto;
+    overflow: hidden;
+    background-position: center;
+}
+/* Box */
+.box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+/* Sign Up */
+.signUp {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.signUp:after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    border-radius: 0 50% 50% 0;
+    width: 56%;
+    height: 100%;
+    border: 5000px solid rgb(22, 45, 138, 60%);
+}
+/* Form */
+.header {
+    color: green;
+    width: 60%;
+    height: 10%;
+    font-size: 24px;
+}
+.header2 {
+    width: 60%;
+    height: 10%;
+    text-align: center;
+}
+.header2 h1 {
+    font-size: xxx-large;
+}
+.header2 p {
+    font-size: small;
+}
+.form {
+    width: 50%;
+    height: 40%;
+}
+.form label {
+    font-size: small;
+}
+.inputText {
+    width: 98%;
+    height: 15%;
+    border: 1px solid;
+    border-radius: 5px;
+    padding-left: 3%;
+}
+.showPassword {
+    float: right;
+    position: relative;
+    top: -11%;
+    cursor: pointer;
+}
+.forget {
+    float: right;
+    color: green;
+    margin-top: -15px;
+    font-size: small;
+}
+.forgetP {
+    cursor: pointer;
+}
+.forgetP:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.links {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.loginBtn {
+    width: 40%;
+    height: 40px;
+    border-radius: 10px 0;
+    border: none;
+    /* font-size: large; */
+    color: white;
+    cursor: pointer;
+    background-color: green;
+}
+.loginBtn:hover {
+    background-color: darkgreen;
+}
+.registerLink {
+    cursor: pointer;
+    font-size: small;
+}
+.registerLink:hover {
+    text-decoration: underline;
+}
+/* Middle Icon */
+.middle {
+    color: green;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: -webkit-xxx-large;
+}
+.middleIcon {
+    z-index: 1;
+    background-color: white;
+    border-radius: 50%;
+}
+.middleIcon:hover {
+    color: darkgreen;
+}
+/* NavBar */
+.nav {
+    width: 50%;
+    padding-top: 10%;
+    position: relative;
+    z-index: 1;
+}
+.nav > ul {
+    float: right;
+}
+.nav > ul > li {
+    float: left;
+    color: white;
+    margin: 0 100px 0 -25px;
+    list-style: none;
+    cursor: pointer;
+}
+li:hover {
+    text-decoration: underline;
+}
+@media screen and (min-width: 4001px) and (max-width: 6000px) {
+}
+@media screen and (min-width: 2701px) and (max-width: 4000px) {
+}
+@media screen and (min-width: 2001px) and (max-width: 2700px) {
+}
+@media screen and (min-width: 1801px) and (max-width: 2000px) {
+}
+@media screen and (min-width: 1601px) and (max-width: 1800px) {
+}
+@media screen and (min-width: 1401px) and (max-width: 1600px) {
+}
+@media screen and (min-width: 1301px) and (max-width: 1400px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1300px) {
+}
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+}
+@media screen and (max-width: 800px) {
+}
