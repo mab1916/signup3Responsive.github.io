@@ -87,20 +87,25 @@
     const password = document.getElementById('password');
 
     function PassShow(i) {
+
         const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
         password.setAttribute('type', type);
 
         var iconHide = i + 'Hide';
         var iconShow = i + 'Show';
 
-        if (document.getElementById(iconHide).style.display === 'none') {
-            document.getElementById(iconShow).style.display = 'none';
-            document.getElementById(iconHide).style.display = 'block';
+        var hide = document.getElementById(iconHide).style;
+        var show = document.getElementById(iconShow).style;
+
+        if (hide.display === 'none') {
+            show.display = 'none';
+            hide.display = 'block';
         } else {
-            document.getElementById(iconShow).style.display = 'block';
-            document.getElementById(iconHide).style.display = 'none';
+            show.display = 'block';
+            hide.display = 'none';
         }
     }
+
 </script>
 
 </html>
