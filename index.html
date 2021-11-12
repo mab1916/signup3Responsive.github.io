@@ -87,6 +87,8 @@
     const password = document.getElementById('password');
 
     function PassShow(i) {
+        const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+        password.setAttribute('type', type);
 
         var iconHide = i + 'Hide';
         var iconShow = i + 'Show';
@@ -99,11 +101,6 @@
             document.getElementById(iconHide).style.display = 'none';
         }
     }
-
-    showPassword.addEventListener('click', function (e) {
-        const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
-        password.setAttribute('type', type);
-    });
 </script>
 
 </html>
